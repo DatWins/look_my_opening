@@ -2,10 +2,12 @@
 title: "How the Trees Are Made"
 header_menu_title: "How It Works"
 navigation_menu_title: "How It Works"
-weight: 2
-header_menu: true
+weight: 8
+header_menu: false
 ---
 ## From a study to a tree
+Every position is a board, every branch is labeled with its move, and a green arrow shows the move just played. Open a tree, then scroll to zoom in and drag to move around.
+
 Each tree starts as a PGN file with one line per chapter, the way Lichess exports a study. A script merges all the lines into one branching tree and draws a board for every position.
 
 ## Tools
