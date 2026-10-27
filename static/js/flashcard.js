@@ -14,6 +14,7 @@ document.addEventListener('click', function (e) {
   if (!b) return;
   var show = b.dataset.show === 'true';
   var scope = b.closest('.post-content') || document;
+  scope.querySelectorAll('.flashcards-group').forEach(function (g) { g.open = show; });
   scope.querySelectorAll('.flashcard').forEach(function (card) {
     card.querySelector('.flashcard__back').classList.toggle('unblur', show);
     card.querySelector('.flashcard__front').setAttribute('aria-expanded', show ? 'true' : 'false');

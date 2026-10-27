@@ -17,8 +17,7 @@ Each card shows a position from Carlsen’s games. Decide what he plays, then cl
 
 {{< flashcards tools="true" >}}{{< /flashcards >}}
 
-### 1.Nf3 — Réti
-{{< flashcards >}}
+{{< flashcards title="1.Nf3 — Réti" >}}
 {{< flashcard question="1.Nf3 Nf6 — what does Carlsen play?" board="trees/carlsen-white/cards/01.svg" >}}
 **2.c4** g6 3.Nc3 d5 4.cxd5 Nxd5 5.h4 Nxc3 6.dxc3 Qxd1+ 7.Kxd1 f6 8.h5 g5
 
@@ -30,8 +29,7 @@ Line 1 · 37 games · Carlsen scored 66%
 Line 2 · 17 games · Carlsen scored 76%
 {{< /flashcard >}}
 {{< /flashcards >}}
-### 1.c4 — English
-{{< flashcards >}}
+{{< flashcards title="1.c4 — English" >}}
 {{< flashcard question="1.c4 e5 — what does Carlsen play?" board="trees/carlsen-white/cards/03.svg" >}}
 **2.Nc3** Nf6 3.Nf3 Nc6 4.e4 Bc5 5.Nxe5 Nxe5 6.d4 Bb4 7.dxe5 Nxe4 8.Qf3 Nxc3
 
@@ -43,8 +41,7 @@ Line 3 · 29 games · Carlsen scored 64%
 Line 4 · 18 games · Carlsen scored 72%
 {{< /flashcard >}}
 {{< /flashcards >}}
-### 1.e4
-{{< flashcards >}}
+{{< flashcards title="1.e4" >}}
 {{< flashcard question="1.e4 c5 — what does Carlsen play?" board="trees/carlsen-white/cards/05.svg" >}}
 **2.Nf3** e6 3.d4 cxd4 4.Nxd4 a6 5.c4 Nf6 6.Nc3 Bb4 7.Qd3 Nc6 8.Nxc6 dxc6
 
@@ -86,8 +83,7 @@ Line 11 · 21 games · Carlsen scored 50%
 Line 12 · 23 games · Carlsen scored 65%
 {{< /flashcard >}}
 {{< /flashcards >}}
-### 1.d4
-{{< flashcards >}}
+{{< flashcards title="1.d4" >}}
 {{< flashcard question="1.d4 d5 — what does Carlsen play?" board="trees/carlsen-white/cards/13.svg" >}}
 **2.c4** c6 3.Nf3 Nf6 4.e3 Bg4 5.h3 Bh5 6.cxd5 cxd5 7.Nc3 e6 8.g4 Bg6
 

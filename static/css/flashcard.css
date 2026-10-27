@@ -51,3 +51,15 @@
 @media (prefers-reduced-motion: reduce) {
   .flashcard, .flashcard__back { transition:none; }
 }
+
+/* collapsible groups: closed until clicked */
+.flashcards-group { margin:.7em 0; border:2px solid currentColor; border-radius:12px; overflow:hidden; }
+.flashcards-group > summary { cursor:pointer; list-style:none; display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  padding:14px 18px; font-size:1.15em; font-weight:600; }
+.flashcards-group > summary::-webkit-details-marker { display:none; }
+.flashcards-group > summary::before { content:"\25B8"; display:inline-block; width:1em; transition:transform .2s ease; }
+.flashcards-group[open] > summary::before { transform:rotate(90deg); }
+.flashcards-group > summary:hover, .flashcards-group > summary:focus-visible { background:rgba(181,136,99,.25); outline:none; }
+.flashcards-group .flashcards-count { font-size:.7em; font-weight:400; opacity:.75; margin-left:auto; }
+.flashcards-group > .flashcards { padding:6px 16px 20px; margin:0; }
+@media (prefers-reduced-motion: reduce) { .flashcards-group > summary::before { transition:none; } }
