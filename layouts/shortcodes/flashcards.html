@@ -1,0 +1,14 @@
+{{- /*
+  A grid of flashcards. Put {{< flashcard >}} cards inside.
+  Usage: {{< flashcards >}} ...cards... {{< /flashcards >}}
+  Add tools="true" for Reveal all / Hide all buttons (they act on the whole section).
+*/ -}}
+{{- if eq (.Get "tools") "true" }}
+<div class="flashcards-tools">
+  <button class="flashcards-all" type="button" data-show="true">Reveal all</button>
+  <button class="flashcards-all" type="button" data-show="false">Hide all</button>
+</div>
+{{- end }}
+<div class="flashcards">
+{{ .Inner }}
+</div>
